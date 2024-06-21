@@ -1,0 +1,59 @@
+
+body{
+    font-size: larger;
+
+}
+.main{
+    padding: 80px;
+    overflow: auto;
+    border: black;
+    
+}
+
+.head{
+    display: flex;
+}
+.head1{
+    width: 66%;
+    float: left;
+    height: 200px;
+    background-color: #ffa31a;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+}
+.head2{
+    display: flex;
+    align-items: stretch;
+    width: 34%;
+    float: right;
+    height: 22px;
+    padding-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+
+.flex-container {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        border: black;
+    }
+    table {
+        width: 100%;
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}

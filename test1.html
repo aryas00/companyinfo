@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="main">
+
+        <div class="head1">
+            <h1 style="color: black;;">TJP Project Proposal</h1>
+        </div>
+        <div>
+        <div class="head2">
+            <img src="imgss.jpg" class="responsive-img" style="width: auto;" ;>
+        </div>
+        </div>
+        <div class="flexcontainer" class="table-responsive"></div>
+        <table>
+            <tr>
+                <td style="background-color: black; color: white;" colspan="3">DD/MM/YY</td>
+            </tr>
+            <tr style="background-color: #ffa31a;">
+                <th>Prepared By: Stella Ornellas</th>
+                <th>Head of sales</th>
+                <th>Weisanham Tech Soln</th>
+            </tr>
+
+        </table>
+        
+        <h1>Executive Summary</h1>
+        <p>First impressions are critical. As the initial section of the proposal, the executive summary should do
+            two things well: Encapsulate what the rest of the document will expound on and create a compelling
+            reason for your potential client to accept your proposal.
+            In one to two paragraphs, try to establish your company's credibility, your understanding of the
+            client's needs, and how your company can fulfill them. How experienced is your company? Which
+            services will best address your client's requirements? What value and concrete benefits can they
+            expect if they choose to work with you?</p>
+
+        <h1>The Team     </h1>
+        <p>This part is all about establishing credibility. Give a short history of your company or team,
+            highlighting experience, client base, or industry knowledge. Then, introduce your leadership team
+            or the team members who will be taking on the client's account.
+          </p>
+        
+          <table class="table table-responsive" >
+            <tr style="background-color: #ffa31a; " class="header-row">
+                <td><img src="i4.jpeg" class="profile-img responsive-img"></td>
+                <td><img src="i6.jpeg" class ="profile-img responsive-img"></td>
+                <td><img src="i5.jpeg" class="profile-img responsive-img"></td>
+            </tr>
+            <tr style="background-color: #ffa31a;">
+                <th>Trisca Lakhani</th>
+                <th>Daniel gallego</th>
+                <th>Saira Kohli</th>
+            </tr>
+            <tr style="background-color: black; color: white;">
+                <th>Cheif Executive Officer</th>
+                <th>Chief Financial Officer</th>
+                <th>Chief Operations Officer</th>
+            </tr>
+          </table>
+
+          <h1>Project Overview</h1>
+          <h2>The Challenge</h2>
+          <p>Include a succinct summary of your company's understanding of the project needs.</p>
+          <h2>Project Goals</h2>
+          <ul>
+            <li>Identify the objectives of the projec</li>
+            <li>Ensure they are specific and measurable</li>
+            <li>Importantly, they should align with your solutions</li>
+            </ul>
+          <h1>Our Proposal</h1>  
+          <h2>Proposed Solutions</h2>
+          <ul>
+            <li>Enumerate how you plan to meet the project goals</li>
+            <li>Focus on the unique selling points of your product or service</li>
+          </ul>
+          <h2>Pricing and Budget</h2>
+          <table>
+            <tr style="background-color: #ffa31a;">
+                <th>Item</th>
+                <th>Quanity</th>
+                <th>Fee</th>
+            </tr>
+            <tr>
+                <td>Add your product or service </td>
+                <td>Quantify the output</td>
+                <td>$ XX,XXX.XX(a)</td>
+            </tr>
+
+            <tr>
+                <td>Include details if needed </td>
+                <td>Numbers, man-hours,
+                    weights, or volumes are
+                    all acceptable</td>
+                <td>$ XX,XXX.XX(b)</td>
+            </tr>
+            <tr style="background-color: #ffe0b3;">
+                <th>Total</th>
+                <th>XX</th>
+                <th><p id="demo"></p></th>
+            </tr>
+          </table>
+
+          <h2>Terms and Conditions</h2>
+          <p>Articulate any fine print your client would benefit from knowing. Anticipate questions or
+            clarifications and address them here.</p>
+
+            <h1>Next Steps for TJP Project</h1>
+            <h3>Supplementary Information</h3>
+            <ol>
+                <li>Add links to relevant documents </li>
+                <li>You can also embed them directly into this Doc</li>
+            </ol>
+
+            <h2>Contact Details</h2>
+            <p id="demo2"></p>
+
+                <table>
+                    <tr style="background-color: #ffa31a;">
+                        <th>Point Of Contact:Stella Ornelas</th>
+                        <th>Phone:123-456-789</th>
+                        <th><a href="mailto:hello@gmail.com">hello@gmail.com</a> </th>
+                    </tr>
+                </table>
+                </div>
+        <script>
+            let a=10000;
+            let b=3000;
+            let x=a+b;
+            document.getElementById("demo").innerHTML= "$"+ x;
+            
+            const d = new Date("2024-06-23");
+            document.getElementById("demo2").innerHTML="For questions or clarifications, don't hesitate to reach out anytime. We would also appreciate formal feedback on our proposal by '' " + d + "  '' Thank you and we look forward to working with you!"
+</script>
+
+</body>
+</html>
